@@ -1,7 +1,15 @@
+import { apiCalls } from './utilities/apiCalls';
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    apiCalls.homePageLoad()
+    .then(data => console.log(data.results))
+  })
+
   return (
     <div className="App">
       <header className="App-header">
