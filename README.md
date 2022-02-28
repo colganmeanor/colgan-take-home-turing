@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Take Home Challenge - 2108 FE Mod 4
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
