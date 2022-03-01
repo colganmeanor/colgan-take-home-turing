@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect } from 'react'
 import { Header } from './Components/Header';
+import { ArticleContainer } from './Components/ArticleContainer';
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
+      <ArticleContainer />
     </div>
   );
 }
