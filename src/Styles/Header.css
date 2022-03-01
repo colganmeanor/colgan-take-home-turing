@@ -1,0 +1,16 @@
+.header {
+    margin: auto;
+    width: 90%;
+    border-bottom: solid black 1px;
+}
+
+.header-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+}
