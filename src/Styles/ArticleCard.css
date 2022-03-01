@@ -1,0 +1,15 @@
+.article-card {
+    border: solid black 1px;
+    width: 85%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.article-date {
+    /* margin: auto; */
+    width: fit-content;
+}
+
+
