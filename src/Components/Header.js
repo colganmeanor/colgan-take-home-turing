@@ -35,7 +35,7 @@ export const Header = ({ setArticles }) => {
                     <button data-cy='subscribe-button'>Subscribe</button>
                 </div>
             </div>
-            <div className="header-category-links">
+            <div data-cy='header-category-link-section' className="header-category-links">
                 {headerLinks}
             </div>
         </div>
