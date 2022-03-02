@@ -21,7 +21,7 @@ export const Header = ({ setArticles }) => {
     return (
         <div className="header">
             <div className="header-top-container">
-            <p>Tuesday, March 1st, 2022</p>
+            <p>March 1st, 2022</p>
             <h1>The Colgan Times</h1>
                 <div className="header-buttons">
                     <button>Log In</button>
