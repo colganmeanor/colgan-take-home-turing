@@ -1,11 +1,19 @@
+import { useNavigate } from 'react-router-dom';
 import '../Styles/ArticleCard.css';
 
-export const ArticleCard = ({ article }) => {
+export const ArticleCard = ({ article, setArticle }) => {
 
     const articleDate = article['published_date'].toString()
+    const articleID = article['short_url'].split('ms/')[1]
+    const navigate = useNavigate()
+    
+    const loadArticle = () => {
+        setArticle(article)
+        navigate(`/article/${articleID}`)
+    }
 
     return (
-        <div className="article-card">
+        <div className="article-card" key={articleID} onClick={() => loadArticle()}>
             <div className="article-date">
                 <p>{articleDate}</p>
             </div>

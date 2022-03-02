@@ -1,13 +1,16 @@
 import { apiCalls } from './utilities/apiCalls';
+import { Routes, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react'
 import { Header } from './Components/Header';
 import { ArticleContainer } from './Components/ArticleContainer';
+import { ArticleDetail } from './Components/ArticleDetail';
 
 const App = () => {
 
   const [articles, setArticles] = useState([])
+  const [article, setArticle] = useState({})
 
   useEffect(() => {
     apiCalls.homePageLoad()
@@ -17,7 +20,10 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <ArticleContainer articles={articles} />
+      <Routes>
+        <Route path="/" element={<ArticleContainer articles={articles} setArticle={setArticle}/>} />
+        <Route path="/article/:articleID" element={<ArticleDetail article={article} />} />
+      </Routes>
     </div>
   );
 }
