@@ -13,16 +13,16 @@ export const ArticleCard = ({ article, setArticle }) => {
     }
 
     return (
-        <div className="article-card" key={articleID} onClick={() => loadArticle()}>
-            <div className="article-date">
+        <div className="article-card" data-cy='article-card' key={articleID} onClick={() => loadArticle()}>
+            <div data-cy='article-date' className="article-date">
                 <p>{articleDate}</p>
             </div>
-            <div className="article-content">
-                <h2 className="article-headline">{article.title}</h2>
-                <p className="article-abstract">{article.abstract}</p>
+            <div data-cy='article-content' className="article-content">
+                <h2 data-cy='article-headline' className="article-headline">{article.title}</h2>
+                <p data-cy='article-abstract' className="article-abstract">{article.abstract}</p>
             </div>
-            <div className="article-img-container">
-                {article.multimedia ? <img className='article-img' src={article.multimedia[1].url}/> : <p>No Image</p>}
+            <div data-cy='article-img-container' className="article-img-container">
+                {article.multimedia ? <img data-cy='article-img' className='article-img' src={article.multimedia[1].url}/> : <p>No Image</p>}
             </div>
         </div>
     )
