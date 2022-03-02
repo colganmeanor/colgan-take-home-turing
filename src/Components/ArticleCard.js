@@ -1,8 +1,9 @@
 import '../Styles/ArticleCard.css';
 
-export const ArticleCard = ({ article }) => {
+export const ArticleCard = ({ article, setArticle }) => {
 
     const articleDate = article['published_date'].toString()
+    
 
     return (
         <div className="article-card">
@@ -10,7 +11,7 @@ export const ArticleCard = ({ article }) => {
                 <p>{articleDate}</p>
             </div>
             <div className="article-content">
-                <h2 className="article-headline">{article.title}</h2>
+                <h2 className="article-headline" onClick={() => setArticle(article)}>{article.title}</h2>
                 <p className="article-abstract">{article.abstract}</p>
             </div>
             <div className="article-img-container">

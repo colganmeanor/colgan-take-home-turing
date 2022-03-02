@@ -21,7 +21,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<ArticleContainer articles={articles} />} />
+        <Route path="/" element={<ArticleContainer articles={articles} setArticle={setArticle}/>} />
         <Route path="/article/:articleID" element={<ArticleDetail article={article} />} />
       </Routes>
     </div>
