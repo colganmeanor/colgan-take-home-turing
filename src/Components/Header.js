@@ -20,22 +20,22 @@ export const Header = ({ setArticles }) => {
     }
 
     const headerLinks = headerCategories.map((category) => {
-        return <p onClick={() => updateCategory(category.value)}>{category.display}</p>
+        return <p className="article-category-link" data-cy='article-category-link' onClick={() => updateCategory(category.value)}>{category.display}</p>
     })
 
     return (
-        <div className="header">
+        <div data-cy='header' className="header">
             <div className="header-top-container">
                 <div className="header-date">
-                    <p>{currentDate.toDateString()}</p>
+                    <p data-cy='header-date'>{currentDate.toDateString()}</p>
                 </div>
-                <h1>The Colgan Times</h1>
-                <div className="header-buttons">
-                    <button>Log In</button>
-                    <button>Subscribe</button>
+                <h1 data-cy='app-title'>The Colgan Times</h1>
+                <div data-cy='header-button-section' className="header-buttons">
+                    <button data-cy='log-in-button'>Log In</button>
+                    <button data-cy='subscribe-button'>Subscribe</button>
                 </div>
             </div>
-            <div className="header-category-links">
+            <div data-cy='header-category-link-section' className="header-category-links">
                 {headerLinks}
             </div>
         </div>

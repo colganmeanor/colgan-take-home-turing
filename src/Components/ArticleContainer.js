@@ -9,7 +9,7 @@ export const ArticleContainer = ({ articles, setArticle }) => {
     }) 
 
     return (
-        <div className="article-container">
+        <div data-cy='article-container' className="article-container">
             {articles ? articleCards : <p>No Articles Available for This Category Currently</p>}
         </div>
     )

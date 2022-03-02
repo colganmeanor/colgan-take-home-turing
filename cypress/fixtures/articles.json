@@ -1,0 +1,130 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+    "section": "home",
+    "last_updated": "2022-03-02T16:00:05-05:00",
+    "num_results": 69,
+    "results": [
+    {
+    "section": "world",
+    "subsection": "europe",
+    "title": "Maps: Tracking the Russian Invasion of Ukraine",
+    "abstract": "Blasts or explosions have been reported in at least seven locations around Kharkiv since Monday, striking civilian buildings and other targets.",
+    "url": "https://www.nytimes.com/interactive/2022/world/europe/ukraine-maps.html",
+    "uri": "nyt://interactive/b5e90905-5744-5076-b57b-666b3781b15b",
+    "byline": "",
+    "item_type": "Interactive",
+    "updated_date": "2022-03-02T13:46:03-05:00",
+    "created_date": "2022-02-13T23:46:00-05:00",
+    "published_date": "2022-02-13T23:46:00-05:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+    "Defense and Military Forces",
+    "War and Armed Conflicts",
+    "Russian Invasion of Ukraine (2022)"
+    ],
+    "org_facet": [ ],
+    "per_facet": [ ],
+    "geo_facet": [
+    "Ukraine",
+    "Russia"
+    ],
+    "multimedia": [
+    {
+    "url": "https://static01.nyt.com/images/2022/02/25/us/ukraine-maps-promo-1645801007862/ukraine-maps-promo-1645801007862-superJumbo-v16.jpg",
+    "format": "Super Jumbo",
+    "height": 1333,
+    "width": 2000,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": "The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2022/02/25/us/ukraine-maps-promo-1645801007862/ukraine-maps-promo-1645801007862-threeByTwoSmallAt2X-v22.jpg",
+    "format": "threeByTwoSmallAt2X",
+    "height": 400,
+    "width": 600,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": "The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2022/02/25/us/ukraine-maps-promo-1645801007862/ukraine-maps-promo-1645801007862-thumbLarge-v16.jpg",
+    "format": "Large Thumbnail",
+    "height": 150,
+    "width": 150,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": "The New York Times"
+    }
+    ],
+    "short_url": "https://nyti.ms/3HPQBVB"
+    },
+    {
+    "section": "world",
+    "subsection": "europe",
+    "title": "15,000 Are Sheltering in Kyiv’s Subway",
+    "abstract": "People sleep three or four to a mattress and plastic food bags litter the scene, while mothers search endlessly on their phones for news of the war.",
+    "url": "https://www.nytimes.com/2022/03/02/world/europe/ukraine-kyiv-subway-underground-russia-war.html",
+    "uri": "nyt://article/e448bd0e-9186-57ff-95c5-5138990ac48d",
+    "byline": "By Andrew E. Kramer and Lynsey Addario",
+    "item_type": "Article",
+    "updated_date": "2022-03-02T15:49:45-05:00",
+    "created_date": "2022-03-02T15:42:28-05:00",
+    "published_date": "2022-03-02T15:42:28-05:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+    "Russian Invasion of Ukraine (2022)",
+    "Subways",
+    "Stations and Terminals (Passenger)"
+    ],
+    "org_facet": [ ],
+    "per_facet": [
+    "Putin, Vladimir V"
+    ],
+    "geo_facet": [
+    "Kyiv (Ukraine)",
+    "Russia",
+    "Ukraine"
+    ],
+    "multimedia": [
+    {
+    "url": "https://static01.nyt.com/images/2022/03/02/world/02ukraine-kyiv-promo/merlin_203106330_87784c67-9c3e-4fd7-9787-b309d161ab00-superJumbo.jpg",
+    "format": "Super Jumbo",
+    "height": 1361,
+    "width": 2048,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": "Lynsey Addario for The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2022/03/02/world/02ukraine-kyiv-promo/02ukraine-kyiv-01-threeByTwoSmallAt2X.jpg",
+    "format": "threeByTwoSmallAt2X",
+    "height": 400,
+    "width": 600,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": "Lynsey Addario for The New York Times"
+    },
+    {
+    "url": "https://static01.nyt.com/images/2022/03/02/world/02ukraine-kyiv-promo/02ukraine-kyiv-01-thumbLarge.jpg",
+    "format": "Large Thumbnail",
+    "height": 150,
+    "width": 150,
+    "type": "image",
+    "subtype": "photo",
+    "caption": "",
+    "copyright": "Lynsey Addario for The New York Times"
+    }
+    ],
+    "short_url": "https://nyti.ms/3MhQS6o"
+    }
+    ]    
+}
