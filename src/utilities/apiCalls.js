@@ -1,4 +1,4 @@
-const key = '0JUSpi2WsHgz1Ni61wAut6y1KVMhXLRA'
+const key = 'IEWBlKTfpAmXXzTAozcroVzA3g8uqXey'
 
 export const apiCalls = {
     homePageLoad: () => {
