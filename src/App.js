@@ -1,4 +1,5 @@
 import { apiCalls } from './utilities/apiCalls';
+import { Routes, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react'
@@ -17,7 +18,9 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <ArticleContainer articles={articles} />
+      <Routes>
+        <Route path="/" element={<ArticleContainer articles={articles} />} />
+      </Routes>
     </div>
   );
 }
