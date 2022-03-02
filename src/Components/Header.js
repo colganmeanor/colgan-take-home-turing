@@ -2,16 +2,20 @@ import React from "react"
 import { headerCategories } from "../utilities/headerCategories";
 import { apiCalls } from "../utilities/apiCalls";
 import '../Styles/Header.css';
+import { useNavigate } from "react-router-dom";
 
 export const Header = ({ setArticles }) => {
+
+    const navigate = useNavigate()
 
     const updateCategory = (cat) => {
         apiCalls.sectionLoad(cat)
         .then(data => setArticles(data.results))
+        navigate('/')
     }
 
     const headerLinks = headerCategories.map((category) => {
-        return <p onClick={() => updateCategory(category)}>{category}</p>
+        return <p onClick={() => updateCategory(category.value)}>{category.display}</p>
     })
 
     return (
