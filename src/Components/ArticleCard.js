@@ -1,18 +1,20 @@
 import '../Styles/ArticleCard.css';
 
-export const ArticleCard = () => {
+export const ArticleCard = ({ article }) => {
+
+    const articleDate = article['published_date'].toString()
 
     return (
         <div className="article-card">
             <div className="article-date">
-                <p>March 1st, 2022</p>
+                <p>{articleDate}</p>
             </div>
             <div className="article-content">
-                <h2 className="article-headline">Headline</h2>
-                <p className="article-abstract">Lorem Ipsum blah blah blah</p>
+                <h2 className="article-headline">{article.title}</h2>
+                <p className="article-abstract">{article.abstract}</p>
             </div>
-            <div className="article-img-preview">
-                <p>this will be the image</p>
+            <div className="article-img-container">
+                <img className='article-img' src={article.multimedia[1].url}/>
             </div>
         </div>
     )

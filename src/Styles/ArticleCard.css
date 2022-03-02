@@ -4,12 +4,22 @@
     /* margin: auto; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .article-date {
     /* margin: auto; */
     width: fit-content;
+}
+
+.article-img-container {
+    /* width: 40%; */
+}
+
+.article-img {
+    width: 300px;
+    height: 200px;
 }
 
 
