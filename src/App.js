@@ -1,21 +1,23 @@
 import { apiCalls } from './utilities/apiCalls';
 import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Header } from './Components/Header';
 import { ArticleContainer } from './Components/ArticleContainer';
 
 const App = () => {
 
+  const [articles, setArticles] = useState([])
+
   useEffect(() => {
     apiCalls.homePageLoad()
-    .then(data => console.log(data.results))
-  })
+    .then(data => setArticles(data.results))
+  }, [])
 
   return (
     <div className="App">
       <Header />
-      <ArticleContainer />
+      <ArticleContainer articles={articles} />
     </div>
   );
 }
