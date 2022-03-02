@@ -13,12 +13,12 @@ export const ArticleCard = ({ article, setArticle }) => {
     }
 
     return (
-        <div className="article-card" key={articleID}>
+        <div className="article-card" key={articleID} onClick={() => loadArticle()}>
             <div className="article-date">
                 <p>{articleDate}</p>
             </div>
             <div className="article-content">
-                <h2 className="article-headline" onClick={() => loadArticle()}>{article.title}</h2>
+                <h2 className="article-headline">{article.title}</h2>
                 <p className="article-abstract">{article.abstract}</p>
             </div>
             <div className="article-img-container">
