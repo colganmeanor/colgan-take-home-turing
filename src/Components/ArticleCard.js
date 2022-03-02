@@ -22,7 +22,7 @@ export const ArticleCard = ({ article, setArticle }) => {
                 <p className="article-abstract">{article.abstract}</p>
             </div>
             <div className="article-img-container">
-                <img className='article-img' src={article.multimedia[1].url}/>
+                {article.multimedia ? <img className='article-img' src={article.multimedia[1].url}/> : <p>No Image</p>}
             </div>
         </div>
     )
