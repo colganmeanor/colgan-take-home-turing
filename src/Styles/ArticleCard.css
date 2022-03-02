@@ -1,7 +1,6 @@
 .article-card {
     border: solid black 1px;
     width: 85%;
-    /* margin: auto; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,17 +8,18 @@
 }
 
 .article-date {
-    /* margin: auto; */
     width: fit-content;
 }
 
-.article-img-container {
-    /* width: 40%; */
-}
 
 .article-img {
     width: 300px;
     height: 200px;
 }
 
+@media screen and (max-width: 800px) {
+    .article-card {
+        flex-direction: column;
+    }
+  }
 
