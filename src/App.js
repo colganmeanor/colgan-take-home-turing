@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header />
+      <Header setArticles={setArticles} />
       <Routes>
         <Route path="/" element={<ArticleContainer articles={articles} setArticle={setArticle}/>} />
         <Route path="/article/:articleID" element={<ArticleDetail article={article} />} />
