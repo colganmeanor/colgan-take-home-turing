@@ -5,10 +5,12 @@ import './App.css';
 import { useEffect, useState } from 'react'
 import { Header } from './Components/Header';
 import { ArticleContainer } from './Components/ArticleContainer';
+import { ArticleDetail } from './Components/ArticleDetail';
 
 const App = () => {
 
   const [articles, setArticles] = useState([])
+  const [article, setArticle] = useState({})
 
   useEffect(() => {
     apiCalls.homePageLoad()
@@ -20,6 +22,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<ArticleContainer articles={articles} />} />
+        <Route path="/article/:articleID" element={<ArticleDetail article={article} />} />
       </Routes>
     </div>
   );
