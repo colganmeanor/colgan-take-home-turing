@@ -4,6 +4,7 @@ import { ArticleCard } from "./ArticleCard"
 export const ArticleContainer = ({ articles, setArticle }) => {
 
     const articleCards = articles && articles.map((article) => {
+        if (article.title)
         return <ArticleCard article={article} setArticle={setArticle} />
     }) 
 
