@@ -1,11 +1,11 @@
 # 2108 FE Mod 4 Take Home Challenge - Colgan Meanor
 Mod4 2108 FE
 
-// screenshot of home page here //
+<img width="1433" alt="Screen Shot 2022-03-03 at 2 29 14 PM" src="https://user-images.githubusercontent.com/87510749/156650431-7cc12426-543e-44f5-bea6-c1fe2d99fef6.png">
 
 
 ## Table of Contents
-  - [Install + Setup](#set-up)
+  - [Install + Setup](#install)
   - [Project Specs](#project-specs)  
   - [Abstract](#abstract)
   - [Architecture](#architecture)
