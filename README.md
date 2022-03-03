@@ -31,7 +31,16 @@ Mod4 2108 FE
 
   The requirements as listed on the spec are as follows: The app must show the articles in a "list view", there must be a page to view articles in greater detail, articles in the "list view" must link in some way to the "detailed view", and there must be some sort of functionality to filter, sort, or search for articles. 
   
+Navigating from 'list view' to 'detail view':
+
+https://user-images.githubusercontent.com/87510749/156650861-c0bb0fba-8ef8-42a5-808d-e23bed775680.mov
+
+
   My take on this project is a fairly simple React-based application that should satisfy the required specs provided by Turing. This app allows a user to view top stories from NYT upon page load, and by clicking on a given article from the list the user can navigate to a detailed article page at a separate URL. By using the navigation menu near the top of the site, the user can choose which category of articles they want to see (such as Sports, World News, Arts, etc). 
+  
+ Choosing to see articles from the Sports section:
+
+https://user-images.githubusercontent.com/87510749/156651007-7f1e8f36-d4e2-44d9-8b56-0662338adcc6.mov
 
 
 ## Architecture
